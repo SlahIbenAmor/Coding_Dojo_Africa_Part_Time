@@ -1,0 +1,31 @@
+.btn_search, .btnplus, .btn_creat_account {
+    display: block;  
+    margin-bottom: 10px;
+    height: 30px; 
+}
+.btn_search  {
+    font-weight: 800;
+    width: 100px;
+    color: lightseagreen;
+    background-color: aliceblue;
+    border: 2px lightseagreen solid ;
+    border-radius: 30%;
+
+}
+
+.btnplus {
+    font-weight: 900;
+    width: 40px;
+    background-color: lightseagreen ;
+    color: aliceblue;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn_creat_account {
+width: 150 px;
+background-color: dodgerblue;
+color: aliceblue;
+border: 2px black solid;
+box-shadow: 3px 3px black;
+}
