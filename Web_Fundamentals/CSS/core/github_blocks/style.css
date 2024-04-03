@@ -1,0 +1,34 @@
+.container {
+   
+    padding: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    width: max-content;
+    text-align: center;
+    
+}
+h1 {
+    margin-bottom: 20px;
+}
+.phot {
+   height: 200px;
+   margin-left: 20px;
+}
+.div1 {
+   background-color: deepskyblue;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between  ;
+}
+.div2 {
+    background-color: palevioletred;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around  ;
+}
+.div3 {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+}
+
