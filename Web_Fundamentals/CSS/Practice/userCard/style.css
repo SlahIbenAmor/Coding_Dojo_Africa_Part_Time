@@ -1,0 +1,61 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* styles to apply to body */
+
+
+.flexContainer {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userCard {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.cardHeader {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.cardBody h1, 
+.cardBody h2,
+.cardBody h3,
+.cardBody p {
+    margin: 20px 0px;
+}
+
+.avatarM {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.iconS {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
