@@ -1,0 +1,130 @@
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLinks {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 50%;
+}
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navTitle {
+    margin-left: 20px;
+}
+.btn{
+    background-color: #008b8b;
+    color: #ffffff;
+    border: none;
+    box-shadow: 5px 5px #000000;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row {
+    display: flex;
+    width: 100%;
+}
+.col, .col2 {
+    margin: 10px;
+    padding: 10px;
+    flex : 1;
+}
+.col2{
+    flex: 2;
+}
+.userCard, .card {
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px solid #008b8b;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.cardHeader{
+    background-color: #008b8b;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.cardBody{
+    padding: 20px;
+}
+.cardBody h2, .cardBody h3, .cardBody p {
+    margin: 20px 0px;
+}
+.avatarM {
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 190px;
+    padding: 5pX;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.iconS {
+    height: 20px;
+}
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.avatarS {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.userLine {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.dates {
+    font-size: 20px;
+    color: #777;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999;
+}
+
+.connections {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
